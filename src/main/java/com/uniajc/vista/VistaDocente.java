@@ -20,4 +20,8 @@ public class VistaDocente {
     public void mostrar(List<Docente> lista) {
         lista.forEach(d -> System.out.println(d.getNombre()));
     }
+
+    public void mostrarMensaje(String mensaje) {
+        System.out.println(mensaje);
+    }
 }

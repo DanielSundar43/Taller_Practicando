@@ -27,4 +27,8 @@ public class VistaGrupo {
     public void mostrar(List<Grupo> lista) {
         lista.forEach(g -> System.out.println(g.getIdGrupo() + " Aula: " + g.getAula()));
     }
+
+    public void mostrarMensaje(String mensaje) {
+        System.out.println(mensaje);
+    }
 }

@@ -27,4 +27,8 @@ public class VistaInscripcion {
     public void mostrar(List<InscripcionCurso> lista) {
         lista.forEach(i -> System.out.println(i.getIdInscripcion() + " Nota: " + i.getNotaFinal()));
     }
+
+    public void mostrarMensaje(String mensaje) {
+        System.out.println(mensaje);
+    }
 }
