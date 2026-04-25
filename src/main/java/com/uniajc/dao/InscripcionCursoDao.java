@@ -5,7 +5,7 @@ import java.util.*;
 import com.uniajc.config.ConexionPostgresDatabase;
 import com.uniajc.modelo.InscripcionCurso;
 
-public class InscripcionDao {
+public class InscripcionCursoDao {
 
     public void guardar(InscripcionCurso i) {
         String sql = "INSERT INTO \"practica-mvc\".inscripciones (id_estudiante, id_grupo, nota_final, estado) VALUES (?, ?, ?, ?)";
