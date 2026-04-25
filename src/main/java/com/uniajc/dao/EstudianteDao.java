@@ -17,11 +17,7 @@ import com.uniajc.modelo.Estudiante;
 
 public class EstudianteDao {
    
-    // Aquí se implementarán los métodos para interactuar con la base de datos, como:
-    // - List<Estudiante> obtenerTodos()
-    // - Estudiante obtenerPorId(int id)
-    // - void actualizar(Estudiante estudiante)
-    // - void eliminar(int id)
+   
 
     public void guardar(Estudiante estudiante) {
                
